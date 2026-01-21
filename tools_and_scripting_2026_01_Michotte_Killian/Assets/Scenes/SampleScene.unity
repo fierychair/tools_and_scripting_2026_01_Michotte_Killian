@@ -695,7 +695,8 @@ MonoBehaviour:
   SecondCharRend: {fileID: 1004368169}
   FirstCharNavAG: {fileID: 604519439}
   SecondCharNavAG: {fileID: 1004368173}
-  obstacle: []
+  obstacle1: {fileID: 1134152355}
+  obstacle2: {fileID: 638865950}
 --- !u!195 &604519439
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -730,7 +731,6 @@ GameObject:
   - component: {fileID: 638865953}
   - component: {fileID: 638865952}
   - component: {fileID: 638865951}
-  - component: {fileID: 638865954}
   m_Layer: 7
   m_Name: Monolith (1)
   m_TagString: Untagged
@@ -830,27 +830,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 638865949}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &638865954
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 638865949}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 3, y: 1, z: 3}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &640850475
 GameObject:
   m_ObjectHideFlags: 0
@@ -1337,7 +1316,6 @@ GameObject:
   - component: {fileID: 1134152358}
   - component: {fileID: 1134152357}
   - component: {fileID: 1134152356}
-  - component: {fileID: 1134152359}
   m_Layer: 7
   m_Name: Monolith
   m_TagString: Untagged
@@ -1437,27 +1415,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1134152354}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &1134152359
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1134152354}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 3, y: 1, z: 3}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1145140362
 GameObject:
   m_ObjectHideFlags: 0
